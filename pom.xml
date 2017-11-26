@@ -50,6 +50,14 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- h2 database-->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<!--<scope>runtime</scope> used for H2 database console @see WebConfiguration-->
+		</dependency>
+
+
 		<!-- Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
